@@ -1,3 +1,27 @@
+# Farsi/Persian Modification
+Issue is with the espeak itself!
+root@ubuntu-focal:~# espeak-ng -v fa -q --ipa "صداقت"
+sedˈɑq1at
+
+There is an issue with q1 being in the phoneme, so here is the temporary fix
+```bash
+apt-get update
+apt-get install -y git autoconf automake libtool pkg-config gcc g++ make libpcaudio0 libpcaudio-dev
+cd espeak-ng/
+sed -i 's/q1/q/g' dictsource/fa_*
+cat dictsource/fa_* | grep q1
+
+
+./autogen.sh
+./configure --prefix=/usr
+make
+make install
+
+espeak-ng -v fa -q --ipa "صداقت"
+```
+
+
+
 # eSpeak NG Text-to-Speech
 
 - [Features](#features)
