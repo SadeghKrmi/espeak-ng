@@ -1,7 +1,9 @@
 # Farsi/Persian Modification
 Issue is with the espeak itself!
+```bash
 root@ubuntu-focal:~# espeak-ng -v fa -q --ipa "صداقت"
 sedˈɑq1at
+```
 
 There is an issue with q1 being in the phoneme, so here is the temporary fix
 ```bash
