@@ -22,6 +22,17 @@ make install
 espeak-ng -v fa -q --ipa "صداقت"
 ```
 
+Modify and add new word with proper pronunciation and use espeak-ng-data in other project
+```bash
+vim dictsource/fa_extra
+make fa
+make install
+
+cp espeak-ng-data /path/to/destination/espeak-ng-data
+```
+
+
+---
 
 
 # eSpeak NG Text-to-Speech
