@@ -297,8 +297,8 @@
 		_) امیر (آL09L09P4@	amiR
 		_) اکبر (L04L09L09P4@	akbaR
 		_) اکبر (آL09L09P4@	akbaR
-		_) اصغر (L04L09L09P4@	asq1aR
-		_) اصغر (آL09L09P4@	asq1aR
+		_) اصغر (L04L09L09P4@	asqaR
+		_) اصغر (آL09L09P4@	asqaR
 		_) ابو (L04L09L09$noprefixP3@	abu	// $noprefix means if another prefix has been removed before this prefix, this rule is not matched.
 		_) ابو (آL09L09$noprefixP3@	abu
 		_) ابوال (L04L09L09$noprefixP5@	abol'
@@ -860,7 +860,7 @@ L09L04) السّادات (_Sm8	ossAdAt
 		_) تند (آL09L09$noprefixP3@	tond		
 
 	// Suffixes ت
-		L09L09) تقی (_Sm3	taq1i
+		L09L09) تقی (_Sm3	taqi
 		L09L09) تر (_Sm2	taR
 		L09L09) ترین (_Sm4	taRin
 		// Possessive pronouns
@@ -3762,150 +3762,150 @@ L09L04) السّادات (_Sm8	ossAdAt
 	// special codes for غ
 		
 	// General Codes for Consonants
-	غ (L01	q1
-	غ (L02	q1
-	L02) غ	q1
-	_ا) غ	q1
-	غ (ّL08	q1q1
-	غ (ّ_	q1q1
-	غ (ّL03	q1q1a
-	غ (L03	q1a
-	L09) غ (غ+++	q1a
+	غ (L01	q
+	غ (L02	q
+	L02) غ	q
+	_ا) غ	q
+	غ (ّL08	qq
+	غ (ّ_	qq
+	غ (ّL03	qqa
+	غ (L03	qa
+	L09) غ (غ+++	qa
 	// غ as first letter in bondary of the words
-		_) غ (L03	q1a
+		_) غ (L03	qa
 	// غ in end of the words
-		غ (_	q1
+		غ (_	q
 	// غ before و and a vowel
-		_) غ (وا	q1a
-		_) غ (وL02	q1a
-		_) غ (ویL03	q1a
-		_) غ (ویL01	q1
-		_) غ (ویL02	q1
-		_) غ (وی_	q1
-		L09) غ (وL02	q1
+		_) غ (وا	qa
+		_) غ (وL02	qa
+		_) غ (ویL03	qa
+		_) غ (ویL01	q
+		_) غ (ویL02	q
+		_) غ (وی_	q
+		L09) غ (وL02	q
 	// Others 
-		غ (ه_+++	q1
-		غ (ۀ_	q1
-		غ (ـL01	q1
-		غ (ـL02	q1
-		غ (ـL03	q1a
-		غ (ــL01	q1
-		غ (ــL02	q1
-		غ (ــL03	q1a
-		غ (ـــL01	q1
-		غ (ـــL02	q1
-		غ (ـــL03	q1a
-		غ (ــ	q1a
+		غ (ه_+++	q
+		غ (ۀ_	q
+		غ (ـL01	q
+		غ (ـL02	q
+		غ (ـL03	qa
+		غ (ــL01	q
+		غ (ــL02	q
+		غ (ــL03	qa
+		غ (ـــL01	q
+		غ (ـــL02	q
+		غ (ـــL03	qa
+		غ (ــ	qa
 	// Consonants Analyzer
 	// Right to left characters Analyzer
 		// Analyzing 2nd Consonant of 3 Consonants
-			_آ) غ (L03_	q1a
-			_آ) غ (د_+	q1
-			_آ) غ (ر_+	q1
-			_او) غ (L03_+	q1
-			_ای) غ (L03_+	q1
-			_L04) غ (L03_	q1
+			_آ) غ (L03_	qa
+			_آ) غ (د_+	q
+			_آ) غ (ر_+	q
+			_او) غ (L03_+	q
+			_ای) غ (L03_+	q
+			_L04) غ (L03_	q
 		//Analyzing  2nd Consonant of 4 Consonants
-			_L03) غ (L05L06_	q1a
-			_L03) غ (L06L03_	q1
-			_آ) غ (L03L01	q1
-			_آ) غ (L03L02	q1
-			_L03) غ (L03L01	q1
-			_L03) غ (L06L03	q1a
-			_L03) غ (رL03+	q1a
-			_L03) غ (L05L03	q1a
+			_L03) غ (L05L06_	qa
+			_L03) غ (L06L03_	q
+			_آ) غ (L03L01	q
+			_آ) غ (L03L02	q
+			_L03) غ (L03L01	q
+			_L03) غ (L06L03	qa
+			_L03) غ (رL03+	qa
+			_L03) غ (L05L03	qa
 		// Analyzing 3th  Consonant of 6 Consonants
-			_L09L01) غ (L03L09L09	q1
-			_L03L03) غ (L03L09L09	q1
-			_L01L03) غ (L03L09L09	q1a
+			_L09L01) غ (L03L09L09	q
+			_L03L03) غ (L03L09L09	q
+			_L01L03) غ (L03L09L09	qa
 		// Analyzing 4th  Consonant of 8 Consonants
-			_L09L09L09) غ (L03L09L09L09	q1a
+			_L09L09L09) غ (L03L09L09L09	qa
 	// Left to right characters Analyzer
 		// Analyzing 2nd Consonant of 4 Consonants (left to right)
-			L09L01) غ (L03_	q1a
-			L09L01) غ (L07_+N	q1
-			L01L03) غ (L03_	q1a
-			L01L03) غ (L07_+N	q1
-			L03L03) غ (L03_	q1a
+			L09L01) غ (L03_	qa
+			L09L01) غ (L07_+N	q
+			L01L03) غ (L03_	qa
+			L01L03) غ (L07_+N	q
+			L03L03) غ (L03_	qa
 		// Analyzing 3th Consonant of 5 Consonants (left to right)
-			L09غ) غ (L03L09_+	q1
-			_L04L03) غ (L06L09_+	q1
-			_آL03) غ (L05L06_+	q1a
-			_آL03) غ (L03L09_+	q1
-			L09L03) غ (L03L09_	q1a
-			L09L01) غ (L03L09_	q1
+			L09غ) غ (L03L09_+	q
+			_L04L03) غ (L06L09_+	q
+			_آL03) غ (L05L06_+	qa
+			_آL03) غ (L03L09_+	q
+			L09L03) غ (L03L09_	qa
+			L09L01) غ (L03L09_	q
 		// Analyzing 4th Consonant of 7 Consonants (left to right)
-			L09L09L09) غ (L03L09L09_	q1
-			_L01L09L03) غ (L03L09L09_	q1
-			_L03L09L03) غ (L03L09L09_	q1a
+			L09L09L09) غ (L03L09L09_	q
+			_L01L09L03) غ (L03L09L09_	q
+			_L03L09L03) غ (L03L09L09_	qa
 		// Analyzing 5th Consonant of 9 Consonants (left to right)
-			L09L09L09L09) غ (L03L09L09L09_	q1a
+			L09L09L09L09) غ (L03L09L09L09_	qa
 
 	// Prefixes غ
-		_) غیر (L04L09L09P3@	'q1ejRe
-		_) غیر (آL09L09P3@	'q1ejRe
-		_) غلام (L04L09L09P4@	q1olAm
-		_) غلام (آL09L09P4@	q1olAm
+		_) غیر (L04L09L09P3@	'qejRe
+		_) غیر (آL09L09P3@	'qejRe
+		_) غلام (L04L09L09P4@	qolAm
+		_) غلام (آL09L09P4@	qolAm
 
 	// suffixes غ
-		L09L09) غلام (_Sm4	q1olAm
+		L09L09) غلام (_Sm4	qolAm
 
 	// arabic form of words  (Babs) غ
 		//فواعل eg. جوامع
-			_L04وا) غ (L03_	q1e
-			_خوا) غ (L03_+	q1a
+			_L04وا) غ (L03_	qe
+			_خوا) غ (L03_+	qa
 		//فاعل eg. کاتب
-			_L04ا) غ (L03_+	q1e
+			_L04ا) غ (L03_+	qe
 		//مفعول eg. مکتوب (Fa eSpeak read itd correctly)
 		//فعول eg. خروج
-			_) غ (L04وL03_	q1o
+			_) غ (L04وL03_	qo
 		//فعال eg. شراب (Fa eSpeak read itd correctly)
 		//مفعل eg. مکتب
-			_م) غ (L04L03_+	q1
-			_مL04) غ (L03_+	q1a
+			_م) غ (L04L03_+	q
+			_مL04) غ (L03_+	qa
 		//افعال eg. اخلاق (Fa eSpeak read itd correctly)
 		//مفعّل eg. مقدّس
-			_م) غ (L04ّL03_+	q1a
-			_مL04) غ (ّL03_+	q1q1a
+			_م) غ (L04ّL03_+	qa
+			_مL04) غ (ّL03_+	qqa
 		//تفعیل eg. تقدیم (Fa eSpeak read itd correctly)
 		//فعیل eg. صغیر (Fa eSpeak read itd correctly)
 		//فعیله eg. صغیره (Fa eSpeak read itd correctly)
 		//افعل eg. اصغر
-			_اL03) غ (L03_+	q1a
+			_اL03) غ (L03_+	qa
 		//تفاعیل eg. تدابیر (Fa eSpeak read itd correctly)
 		//تفاعل eg. تفاوت
-			_تL04ا) غ (L03_	q1o
+			_تL04ا) غ (L03_	qo
 		//تفعل eg. تفکر
-			_ت) غ (L03L03_+	q1a
-			_تL04) غ (L03_++	q1q1o
+			_ت) غ (L03L03_+	qa
+			_تL04) غ (L03_++	qqo
 		//تفعّل eg. تفکّر
-			_ت) غ (L03ّL03_+	q1a
-			_تL04) غ (ّL03_+	q1q1o
+			_ت) غ (L03ّL03_+	qa
+			_تL04) غ (ّL03_+	qqo
 		//مفاعل eg. مباحث
-			_مL04ا) غ (L03_	q1e
+			_مL04ا) غ (L03_	qe
 		//استفعال eg. استخراج (Fa eSpeak read itd correctly)
 		//انفعال eg. انفجار
-			_ان) غ (L04اL03_++	q1e
+			_ان) غ (L04اL03_++	qe
 		//افتعال eg. افتخار
 		//مستفعل eg. مستخدم
-			_مست) غ (L04L03_+	q1
-			_مستL04) غ (L03_	q1e
+			_مست) غ (L04L03_+	q
+			_مستL04) غ (L03_	qe
 		//متفاعل eg. متفاوت
-			_متL04ا) غ (L03_	q1e
-			_متL04ا) غ (ی_	q1
+			_متL04ا) غ (L03_	qe
+			_متL04ا) غ (ی_	q
 		//متفعل eg. متخصص
-			_مت) غ (L04L03_++	q1a
-			_متL04) غ (L03_	q1q1e
+			_مت) غ (L04L03_++	qa
+			_متL04) غ (L03_	qqe
 		//متفعّل eg. متخصّص
-			_مت) غ (L04ّL03_++	q1a
-			_متL04) غ (ّL03_	q1q1e
+			_مت) غ (L04ّL03_++	qa
+			_متL04) غ (ّL03_	qqe
 		//مفتعل eg. معتدل
-			_م) غ (تL04L03_+	q1
-			_مL04ت) غ (L03_	q1e
+			_م) غ (تL04L03_+	q
+			_مL04ت) غ (L03_	qe
 		//منفعل eg. منفجر
-			_من) غ (L03L03_++	q1a
-			_من) غ (یL03_+	q1a
-			_منL04) غ (L03_	q1e
+			_من) غ (L03L03_++	qa
+			_من) غ (یL03_+	qa
+			_منL04) غ (L03_	qe
 		//منفعله eg. منفجره (Fa eSpeak read itd correctly)
 
 
@@ -4080,149 +4080,149 @@ L09L04) السّادات (_Sm8	ossAdAt
 	// special codes for ق
 		
 	// General Codes for Consonants
-	ق (L01	q1
-	ق (L02	q1
-	L02) ق	q1
-	_ا) ق	q1
-	ق (ّL08	q1q1
-	ق (ّ_	q1q1
-	ق (ّL03	q1q1a
-	ق (L03	q1a
-	L09) ق (ق+++	q1a
+	ق (L01	q
+	ق (L02	q
+	L02) ق	q
+	_ا) ق	q
+	ق (ّL08	qq
+	ق (ّ_	qq
+	ق (ّL03	qqa
+	ق (L03	qa
+	L09) ق (ق+++	qa
 	// ق as first letter in bondary of the words
-		_) ق (L03	q1a
+		_) ق (L03	qa
 	// ق in end of the words
-		ق (_	q1
+		ق (_	q
 	// ق before و and a vowel
-		_) ق (وا	q1a
-		_) ق (وL02	q1a
-		_) ق (ویL03	q1a
-		_) ق (ویL01	q1
-		_) ق (ویL02	q1
-		_) ق (وی_	q1
-		L09) ق (وL02	q1
+		_) ق (وا	qa
+		_) ق (وL02	qa
+		_) ق (ویL03	qa
+		_) ق (ویL01	q
+		_) ق (ویL02	q
+		_) ق (وی_	q
+		L09) ق (وL02	q
 	// Others 
-		ق (ه_+++	q1
-		ق (ۀ_	q1
-		ق (ـL01	q1
-		ق (ـL02	q1
-		ق (ـL03	q1a
-		ق (ــL01	q1
-		ق (ــL02	q1
-		ق (ــL03	q1a
-		ق (ـــL01	q1
-		ق (ـــL02	q1
-		ق (ـــL03	q1a
-		ق (ــ	q1a
+		ق (ه_+++	q
+		ق (ۀ_	q
+		ق (ـL01	q
+		ق (ـL02	q
+		ق (ـL03	qa
+		ق (ــL01	q
+		ق (ــL02	q
+		ق (ــL03	qa
+		ق (ـــL01	q
+		ق (ـــL02	q
+		ق (ـــL03	qa
+		ق (ــ	qa
 	// Consonants Analyzer
 	// Right to left characters Analyzer
 		// Analyzing 2nd Consonant of 3 Consonants
-			_آ) ق (L03_	q1a
-			_آ) ق (د_+	q1
-			_آ) ق (ر_+	q1
-			_او) ق (L03_+	q1
-			_ای) ق (L03_+	q1
-			_L04) ق (L03_	q1
+			_آ) ق (L03_	qa
+			_آ) ق (د_+	q
+			_آ) ق (ر_+	q
+			_او) ق (L03_+	q
+			_ای) ق (L03_+	q
+			_L04) ق (L03_	q
 		//Analyzing  2nd Consonant of 4 Consonants
-			_L03) ق (L05L06_	q1a
-			_L03) ق (L06L03_	q1
-			_آ) ق (L03L01	q1
-			_آ) ق (L03L02	q1
-			_L03) ق (L03L01	q1
-			_L03) ق (L06L03	q1a
-			_L03) ق (رL03+	q1a
-			_L03) ق (L05L03	q1a
+			_L03) ق (L05L06_	qa
+			_L03) ق (L06L03_	q
+			_آ) ق (L03L01	q
+			_آ) ق (L03L02	q
+			_L03) ق (L03L01	q
+			_L03) ق (L06L03	qa
+			_L03) ق (رL03+	qa
+			_L03) ق (L05L03	qa
 		// Analyzing 3th  Consonant of 6 Consonants
-			_L09L01) ق (L03L09L09	q1
-			_L03L03) ق (L03L09L09	q1
-			_L01L03) ق (L03L09L09	q1a
+			_L09L01) ق (L03L09L09	q
+			_L03L03) ق (L03L09L09	q
+			_L01L03) ق (L03L09L09	qa
 		// Analyzing 4th  Consonant of 8 Consonants
-			_L09L09L09) ق (L03L09L09L09	q1a
+			_L09L09L09) ق (L03L09L09L09	qa
 	// Left to right characters Analyzer
 		// Analyzing 2nd Consonant of 4 Consonants (left to right)
-			L09L01) ق (L03_	q1a
-			L09L01) ق (L07_+N	q1
-			L01L03) ق (L03_	q1a
-			L01L03) ق (L07_+N	q1
-			L03L03) ق (L03_	q1a
+			L09L01) ق (L03_	qa
+			L09L01) ق (L07_+N	q
+			L01L03) ق (L03_	qa
+			L01L03) ق (L07_+N	q
+			L03L03) ق (L03_	qa
 		// Analyzing 3th Consonant of 5 Consonants (left to right)
-			L09ق) ق (L03L09_+	q1
-			_L04L03) ق (L06L09_+	q1
-			_آL03) ق (L05L06_+	q1a
-			_آL03) ق (L03L09_+	q1
-			L09L03) ق (L03L09_	q1a
-			L09L01) ق (L03L09_	q1
+			L09ق) ق (L03L09_+	q
+			_L04L03) ق (L06L09_+	q
+			_آL03) ق (L05L06_+	qa
+			_آL03) ق (L03L09_+	q
+			L09L03) ق (L03L09_	qa
+			L09L01) ق (L03L09_	q
 		// Analyzing 4th Consonant of 7 Consonants (left to right)
-			L09L09L09) ق (L03L09L09_	q1
-			_L01L09L03) ق (L03L09L09_	q1
-			_L03L09L03) ق (L03L09L09_	q1a
+			L09L09L09) ق (L03L09L09_	q
+			_L01L09L03) ق (L03L09L09_	q
+			_L03L09L03) ق (L03L09L09_	qa
 		// Analyzing 5th Consonant of 9 Consonants (left to right)
-			L09L09L09L09) ق (L03L09L09L09_	q1a
+			L09L09L09L09) ق (L03L09L09L09_	qa
 
 	// Prefixes ق
-		_) قابل (L04L09L09P4@	q1'Abele
-		_) قابل (آL09L09P4@	q1'Abele
-		_) قرمز (L04L09L09P4@	q1eRmez
-		_) قرمز (آL09L09P4@	q1eRmez
+		_) قابل (L04L09L09P4@	q'Abele
+		_) قابل (آL09L09P4@	q'Abele
+		_) قرمز (L04L09L09P4@	qeRmez
+		_) قرمز (آL09L09P4@	qeRmez
 
 	// suffixes ق
 		
 	// arabic form of words  (Babs) ق
 		//فواعل eg. جوامع
-			_L04وا) ق (L03_	q1e
-			_خوا) ق (L03_+	q1a
+			_L04وا) ق (L03_	qe
+			_خوا) ق (L03_+	qa
 		//فاعل eg. کاتب
-			_L04ا) ق (L03_+	q1e
+			_L04ا) ق (L03_+	qe
 		//مفعول eg. مکتوب (Fa eSpeak read itd correctly)
 		//فعول eg. خروج
-			_) ق (L04وL03_	q1o
+			_) ق (L04وL03_	qo
 		//فعال eg. شراب (Fa eSpeak read itd correctly)
 		//مفعل eg. مکتب
-			_م) ق (L04L03_+	q1
-			_مL04) ق (L03_+	q1a
+			_م) ق (L04L03_+	q
+			_مL04) ق (L03_+	qa
 		//افعال eg. اخلاق (Fa eSpeak read itd correctly)
 		//مفعّل eg. مقدّس
-			_م) ق (L04ّL03_+	q1a
-			_مL04) ق (ّL03_+	q1q1a
+			_م) ق (L04ّL03_+	qa
+			_مL04) ق (ّL03_+	qqa
 		//تفعیل eg. تقدیم (Fa eSpeak read itd correctly)
 		//فعیل eg. صغیر (Fa eSpeak read itd correctly)
 		//فعیله eg. صغیره (Fa eSpeak read itd correctly)
 		//افعل eg. اصغر
-			_اL03) ق (L03_+	q1a
+			_اL03) ق (L03_+	qa
 		//تفاعیل eg. تدابیر (Fa eSpeak read itd correctly)
 		//تفاعل eg. تفاوت
-			_تL04ا) ق (L03_	q1o
+			_تL04ا) ق (L03_	qo
 		//تفعل eg. تفکر
-			_ت) ق (L03L03_+	q1a
-			_تL04) ق (L03_++	q1q1o
+			_ت) ق (L03L03_+	qa
+			_تL04) ق (L03_++	qqo
 		//تفعّل eg. تفکّر
-			_ت) ق (L03ّL03_+	q1a
-			_تL04) ق (ّL03_+	q1q1o
+			_ت) ق (L03ّL03_+	qa
+			_تL04) ق (ّL03_+	qqo
 		//مفاعل eg. مباحث
-			_مL04ا) ق (L03_	q1e
+			_مL04ا) ق (L03_	qe
 		//استفعال eg. استخراج (Fa eSpeak read itd correctly)
 		//انفعال eg. انفجار
-			_ان) ق (L04اL03_++	q1e
+			_ان) ق (L04اL03_++	qe
 		//افتعال eg. افتخار
 		//مستفعل eg. مستخدم
-			_مست) ق (L04L03_+	q1
-			_مستL04) ق (L03_	q1e
+			_مست) ق (L04L03_+	q
+			_مستL04) ق (L03_	qe
 		//متفاعل eg. متفاوت
-			_متL04ا) ق (L03_	q1e
-			_متL04ا) ق (ی_	q1
+			_متL04ا) ق (L03_	qe
+			_متL04ا) ق (ی_	q
 		//متفعل eg. متخصص
-			_مت) ق (L04L03_++	q1a
-			_متL04) ق (L03_	q:q1e
+			_مت) ق (L04L03_++	qa
+			_متL04) ق (L03_	q:qe
 		//متفعّل eg. متخصّص
-			_مت) ق (L04ّL03_++	q1a
-			_متL04) ق (ّL03_	q:q1e
+			_مت) ق (L04ّL03_++	qa
+			_متL04) ق (ّL03_	q:qe
 		//مفتعل eg. معتدل
-			_م) ق (تL04L03_+	q1
-			_مL04ت) ق (L03_	q1e
+			_م) ق (تL04L03_+	q
+			_مL04ت) ق (L03_	qe
 		//منفعل eg. منفجر
-			_من) ق (L03L03_++	q1a
-			_من) ق (یL03_+	q1a
-			_منL04) ق (L03_	q1e
+			_من) ق (L03L03_++	qa
+			_من) ق (یL03_+	qa
+			_منL04) ق (L03_	qe
 		//منفعله eg. منفجره (Fa eSpeak read itd correctly)
 
 
@@ -4916,8 +4916,8 @@ L09L04) السّادات (_Sm8	ossAdAt
 		L09L09) مردان (_Sm5	maRdAn
 		L09L09) منش (_Sm3	maneS
 		L09L09) مآب (_Sm3	maAb
-		L09L09) مقام (_Sm4	maq1Am
-		L09L09) مرغ (_Sm3	moRq1
+		L09L09) مقام (_Sm4	maqAm
+		L09L09) مرغ (_Sm3	moRq
 
 	// arabic form of words  (Babs) م
 		//فواعل eg. جوامع
@@ -5127,7 +5127,7 @@ L09L04) السّادات (_Sm8	ossAdAt
 		L09L09) نواز (_Sm4	navAz
 		L09L09) نگار (_Sm4	negAR
 		L09L09) نژاد (_Sm4	neZAd
-		L09L09) نقی (_Sm3	naq1i
+		L09L09) نقی (_Sm3	naqi
 		// Subjective pronouns
 			L09L09L03) ند (_NSm2	and
 			L09L03ی) ند (_NSm2	and
@@ -5962,7 +5962,7 @@ L09L04) السّادات (_Sm8	ossAdAt
 
 .group gh
 	gh	_^_en
-	?1 gh	q1
+	?1 gh	q
 
 
 .group h
@@ -6038,7 +6038,7 @@ L09L04) السّادات (_Sm8	ossAdAt
 
 .group q
 	q	_^_en
-	?1 q	q1
+	?1 q	q
 
 
 .group r
@@ -6098,7 +6098,7 @@ L09L04) السّادات (_Sm8	ossAdAt
 
 // Others mathematics characters
 .group
-	. (D     	noq1te:
+	. (D     	noqte:
 	±	m'osbat||jA:||m'anfi
 	>=	boz'oRgtaR||jA:||m,osAvi
 	<=	kutS'ektaR||jA:||m,osAvi
