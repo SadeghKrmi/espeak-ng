@@ -195,7 +195,7 @@ static const unsigned short chars_ignore_zwnj_hyphen[] = {
 	// U+200C ZERO WIDTH NON-JOINER
 	//     Used to prevent combined ligatures being displayed in their
 	//     combined form.
-	0x200c, '-',
+	// 0x200c, '-',
 	// U+200D ZERO WIDTH JOINER
 	//     Used to indicate an alternative connected form made up of the
 	//     characters surrounding the ZWJ in Devanagari, Kannada, Malayalam
